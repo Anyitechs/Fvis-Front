@@ -22,13 +22,13 @@
                       <NuxtLink to="/" class="text-custom-white">Home</NuxtLink>
                     </li>
                     <li class="menu-item">
-                      <NuxtLink to="/about" class="text-custom-white">About Us</NuxtLink>
+                      <NuxtLink to="/about" class="text-custom-white">Who We Are</NuxtLink>
                     </li>
                     <li
                       @click="openmenu"
                       :class="'menu-item menu-item-has-children ' + openchildren">
                       <a class="text-custom-white" href="#">
-                        Services
+                        Business Unit
                         <span class="arrow"></span>
                       </a>
                       <ul class="custom sub-menu" :style="'display:' + display">
@@ -77,36 +77,53 @@
                         </li>
                       </ul>
                     </li>
+                    <li class="menu-item menu-item-has-children">
+                      <NuxtLink to="/news" class="text-custom-white">News Blog</NuxtLink>
+                    </li>
                     <li
                       @click="opengallery"
                       :class="'menu-item menu-item-has-children ' + opengallerychildren"
                     >
                       <a class="text-custom-white" href="#">
-                        Gallery
+                        Media Gallery
                         <span class="arrow"></span>
                       </a>
                       <ul class="custom sub-menu" :style="'display:' + gallerydisplay">
                         <li class="menu-item">
-                          <NuxtLink to="/gallery/local" class="text-light-grey">Local</NuxtLink>
+                          <NuxtLink to="/gallery/local" class="text-light-grey">Photo</NuxtLink>
+                          <ul style="display: block">
+                            <li class="menu-item">
+                              <NuxtLink to="/gallery/local" class="text-light-grey">Local</NuxtLink>
+                            </li>
+                            <li class="menu-item">
+                              <NuxtLink to="/gallery/" class="text-light-grey">International</NuxtLink>
+                            </li>
+                          </ul>
                         </li>
                         <li class="menu-item">
-                          <NuxtLink to="/gallery/international" class="text-light-grey">International</NuxtLink>
+                          <NuxtLink to="/gallery/videos" class="text-light-grey">Video</NuxtLink>
                         </li>
                       </ul>
                     </li>
-                    <li class="menu-item menu-item-has-children">
-                      <NuxtLink to="/news" class="text-custom-white">News</NuxtLink>
+                    <li class="menu-item">
+                      <NuxtLink to="/membership" class="text-custom-white">Membership</NuxtLink>
+                    </li>
+<!--                    <li class="menu-item">-->
+<!--                      <NuxtLink to="/contact" class="text-custom-white">Careers</NuxtLink>-->
+<!--                    </li>-->
+                    <li class="menu-item">
+                      <NuxtLink to="/login" class="text-custom-white">Login</NuxtLink>
                     </li>
                     <li class="menu-item">
                       <NuxtLink to="/contact" class="text-custom-white">Contact Us</NuxtLink>
                     </li>
                   </ul>
                 </nav>
-                <div class="right-side">
-                  <div class="cta-btn">
-                    <NuxtLink to="/login" class="btn-first btn-submit">LOGIN</NuxtLink>
-                  </div>
-                </div>
+<!--                <div class="right-side">-->
+<!--                  <div class="cta-btn">-->
+<!--                    <NuxtLink to="/login" class="btn-first btn-submit">LOGIN</NuxtLink>-->
+<!--                  </div>-->
+<!--                </div>-->
               </div>
               <div @click="activeMenu" class="hamburger-menu">
                 <div :class="'menu-btn ' + menuActive">

@@ -89,9 +89,14 @@ export default {
     }
   },
   async fetch() {
-    const posts = await fetch(
-      `https://resource.fvisng.com/api/gallery/${this.$route.params.slug}`
-    ).then(res => res.json())
+    // const posts = await fetch(
+    //   `/gallery/${this.$route.params.slug}`
+    // ).then(res => {
+    //   console.log(res)
+    //   res.json()
+    // })
+    const posts = await this.$axios.$get(`/gallery/${this.$route.params.slug}`)
+    console.log(posts)
     this.title = posts.title
     this.date = posts.date
     this.author = posts.author.first_name + ' ' + posts.author.last_name

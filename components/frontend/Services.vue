@@ -8,12 +8,7 @@
     <div class="container">
       <div class="section-header">
         <div class="section-heading">
-          <h3 class="text-custom-black fw-700">What We Do</h3>
-          <div class="section-description">
-            <p
-              class="text-light-white"
-            >FVIS has excelled internationally in Financial Management, Investments, and Consultancy for many years and now extends our success, expertise and services to the Nigerian Market to provide Personal and Corporate Loans, Crowd Funding, Savings  and Investment Products, Talent Development as well as facilitating your Charitable Ventures.</p>
-          </div>
+
         </div>
         <div class="section-btn">
           <NuxtLink to="/membership" class="btn-first btn-submit text-light-blue">BECOME A MEMBER</NuxtLink>
@@ -234,9 +229,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="d-flex justify-content-center">
-    <img src="/assets/images/check.webp" class="img-fluid" />
     </div>
   </section>
 </template>

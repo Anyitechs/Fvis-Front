@@ -13,21 +13,80 @@
               <slick ref="slick" :options="slickOptions">
                 <div class="slide-item">
                   <div class="banner-text">
-                    <h1 class="text-custom-white fw-700">Grow Your Business</h1>
-                    <h5 class="text-light">Get the funding you need.</h5>
+                    <h1 class="text-custom-white fw-700">FIXED INCOME INVESTMENT</h1>
+<!--                    <h5 class="text-light">Get the funding you need.</h5>-->
                     <p
                       class="text-custom-white"
-                    >Become a member of our community where we can help you scale</p>
+                    > FVIS INVESTMENT LTD provides access to treasury bonds, agency, and government bonds, corporate bonds, municipal bonds, mortgage-backed securities, and more!</p>
                     <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
                   </div>
                 </div>
                 <div class="slide-item">
                   <div class="banner-text">
-                    <h1 class="text-custom-white fw-700">Get Loans With Great Rates</h1>
-                    <h5 class="text-light">As low as 8%</h5>
+                    <h1 class="text-custom-white fw-700">PROJECT FINANCING</h1>
+<!--                    <h5 class="text-light">As low as 8%</h5>-->
                     <p class="text-custom-white">
-                      Become a member of Fvis Nigeria and gain access to incredible benefits <br>
-                      Our incredible range of services grows your business by creating a tailor-made opportunities.
+                      Approach FVIS INVESTMENT LTD and enjoy unsurpassed professionalism from a com- pany that is perfectly equipped to bring your visions to life – globally.
+                    </p>
+                    <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
+                  </div>
+                </div>
+                <div class="slide-item">
+                  <div class="banner-text">
+                    <h1 class="text-custom-white fw-700">CORPORATE FINANCING</h1>
+<!--                    <h5 class="text-light">As low as 8%</h5>-->
+                    <p class="text-custom-white">
+                      Whether crowdfunding, microloans, vendor financing, or purchase order financing, our team will pinpoint the perfect solution for you.
+                    </p>
+                    <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
+                  </div>
+                </div>
+                <div class="slide-item">
+                  <div class="banner-text">
+                    <h1 class="text-custom-white fw-700">Real Estate</h1>
+<!--                    <h5 class="text-light">As low as 8%</h5>-->
+                    <p class="text-custom-white">
+                      Our expert management services to provide superior quality investment opportunities, ideally suited to your specific business needs.
+                    </p>
+                    <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
+                  </div>
+                </div>
+                <div class="slide-item">
+                  <div class="banner-text">
+                    <h1 class="text-custom-white fw-700">TALENT DEVELOPMENT (HUMAN RESOURCE)</h1>
+<!--                    <h5 class="text-light">As low as 8%</h5>-->
+                    <p class="text-custom-white">
+                      Keep your business three steps ahead with our bespoke talent development programs.
+                    </p>
+                    <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
+                  </div>
+                </div>
+                <div class="slide-item">
+                  <div class="banner-text">
+                    <h1 class="text-custom-white fw-700">COMMODITY TRADING</h1>
+<!--                    <h5 class="text-light">As low as 8%</h5>-->
+                    <p class="text-custom-white">
+                      We provide practical solutions to any challenges in Commodity Trading including En- ergy, Oil and Gas, Metal and Agribusiness sectors
+                    </p>
+                    <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
+                  </div>
+                </div>
+                <div class="slide-item">
+                  <div class="banner-text">
+                    <h1 class="text-custom-white fw-700">CHARITY (CSR)</h1>
+<!--                    <h5 class="text-light">As low as 8%</h5>-->
+                    <p class="text-custom-white">
+                      We help you help the world. We help facilitate your charitable ventures by streamlining access to the world's best NGOs, raising funds and fair disbursement of all donations.
+                    </p>
+                    <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
+                  </div>
+                </div>
+                <div class="slide-item">
+                  <div class="banner-text">
+                    <h1 class="text-custom-white fw-700">LOAN SERVICES</h1>
+<!--                    <h5 class="text-light">As low as 8%</h5>-->
+                    <p class="text-custom-white">
+                      Get loans with Great interest as low as 8%. we provide the right Personal and Corporate loans solutions, which can make all the difference in your business
                     </p>
                     <NuxtLink to="/register" class="btn-first btn-submit-fill">GET STARTED</NuxtLink>
                   </div>

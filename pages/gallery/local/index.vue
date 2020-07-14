@@ -31,7 +31,7 @@
             v-for="gallery in galleries"
             :key="gallery.id">
             <div class="post-wrapper">
-              <NuxtLink :to="'/gallery/local/3' + gallery.slug">
+              <NuxtLink :to="'/gallery/local/' + gallery.slug">
                 <div class="blog-img animate-img">
                   <img
                     :src="gallery.galleryimages[0].gallery_url"
@@ -83,7 +83,7 @@ export default {
   },
   async fetch() {
     const gallery = await this.$axios.$get(
-      'https://resource.fvisng.com/api/getgalleries'
+      '/getgalleries'
     )
     if (gallery.success == true) {
       this.galleries = gallery.data.data

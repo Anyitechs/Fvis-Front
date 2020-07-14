@@ -68,8 +68,7 @@
           <div class="col-xl-7 col-lg-8">
             <iframe
               class="full-width full-height"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.7135292066596!2d3.3648501147708902!3d6.557801395257022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d8fb6300eef%3A0x2320c8126a34d624!2s256%20Ikorodu%20Rd%2C%20Ilupeju%2C%20Lagos!5e0!3m2!1sen!2sng!4v1587142826496!5m2!1sen!2sng"
-            ></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6844604514245!2d3.4861487645560563!3d6.434560895344651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5cc7d5f06f9%3A0xbaccf9d94bd137ef!2sBlock%2063%2C%2032%20Oba%20Yekini%20Elegushi%20Rd%2C%20Lekki%20Penninsula%20II%2C%20Lekki!5e0!3m2!1sen!2sng!4v1594640372289!5m2!1sen!2sng"></iframe>
           </div>
         </div>
       </div>
@@ -110,8 +109,7 @@
                 <h5 class="text-custom-black fw-600">Location</h5>
                 <p class="text-light-white">Lagos Office</p>
                 <span class="fs-14">
-                  256, Ikorodu Road,
-                  Obanikoro, Lagos, Nigeria.
+                  Block 63, Plot 32, Oba Yekini Elegushi Road, Ikate, Lekki Phase 1, Lagos, Nigeria
                 </span>
               </div>
             </div>
